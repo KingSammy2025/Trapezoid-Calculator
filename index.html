@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area of a Trapezoid Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Area of a Trapezoid Calculator</h1>
+    <img
+      src="images/area of a trapezoid image.webp"
+      alt="Trapezoid Image"
+      width="400px"
+      height="200px"
+    />
+
+    <h2>How to Calculate the area of a Trapezoid</h2>
+
+    <p>
+      The area of a trapezoid is calculated by adding half of the addition of
+      base 1 and base 2 multiplied by the height of the trapezoid
+    </p>
+    <br />
+    <hr />
+
+    <h2>Input</h2>
+
+    <p>Base 1(b1): <input id="b1" type="number" /></p>
+    <p>Base 2(b2): <input id="b2" type="number" /></p>
+    <p>Height(h): <input id="height" type="number" /></p>
+    <br />
+    <hr />
+
+    <label for="unit"><h2>Select your preferred unit</h2></label>
+    <select name="unit" id="convertion-unit">
+      <option value="cm">Centimeters</option>
+      <option value="m">Meters</option>
+      <option value="ft">Feets</option>
+      <option value="in">Inches</option>
+    </select>
+
+    <button id="calc-btn">Calculate</button>
+
+    <br />
+
+    <h2>Output</h2>
+
+    <p>
+      The area of the trapezoid is : <span id="result"> = </span>
+      <span id="pic-container"></span>
+    </p>
+  </body>
+</html>
